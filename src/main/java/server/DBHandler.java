@@ -39,7 +39,7 @@ public class DBHandler {
 		}
 
 	}
-
+//
 
 
 	private static void prepareAllStatements() throws SQLException {
