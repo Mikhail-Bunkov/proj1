@@ -40,7 +40,7 @@ public class DBHandler {
 
 	}
 //
-//
+//..
 
 	private static void prepareAllStatements() throws SQLException {
 		psCreatingNewClient = connection.prepareStatement("INSERT INTO clientData(first_name, last_name, passport, is_banned) VALUES (? ,? ,? ,? );");
